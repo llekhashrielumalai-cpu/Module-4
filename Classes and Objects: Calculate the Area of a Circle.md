@@ -13,7 +13,24 @@ To write a Python program that calculates the **area of a circle** based on the 
 ## 🧾 Program
 
 Add code here
+import math
 
+class cse:
+    def mech(self, r):
+        area = math.pi * r * r
+        print(area)
+
+r = float(input())
+
+obj = cse()
+obj.mech(r)
 ## Output
+Input:
 
+5
+
+Output:
+
+78.53981633974483
 ## Result
+Thus, the Python program to calculate the area of a circle using a class and object was executed successfully.
