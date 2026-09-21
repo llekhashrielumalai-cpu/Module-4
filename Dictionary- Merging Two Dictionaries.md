@@ -12,7 +12,15 @@ To write a Python program that merges **two dictionaries** and combines their ke
 ## 🧾 Program
 
 Add code here
+dict1 = {'a': 1, 'b': 2}
+dict2 = {'c': 3, 'd': 4}
 
+def merge():
+    result = {**dict1, **dict2}
+    print(result)
+
+merge()
 ## Output
-
+{'a': 1, 'b': 2, 'c': 3, 'd': 4}
 ## Result
+Thus, the Python program to merge two dictionaries using the ** unpacking operator was executed successfully.
